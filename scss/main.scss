@@ -1,6 +1,11 @@
 @import "compass/css3";
+@import "compass/reset";
 
 $white : #F5F5E8;
+$red : #5e35b1;
+$blue: #5677fc;
+$violet: #880e4f;
+$green: #26a69a;
 
 html, body{
 	width: 100%;
@@ -9,15 +14,43 @@ html, body{
 }
 
 footer {
-	margin-top: -50px;
 	width: 600px;
 	text-align: center;
 	font-size: 3em;
 	font-family: 'Josefin Sans';
 	font-weight: 100;
+	.menu {
+		width: 100%;
+	}
+	li {
+		width: 15px;
+		height: 15px;
+		margin-right: 7px; 
+		@include border-radius(100%);
+	}
 }
 
 #circle {
 	margin-left: auto;
 	margin-right:auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.red {
+	background-color: $red;
+}
+
+.blue {
+	background-color: $blue;
+}
+
+.green {
+	background-color: $green;
+}
+.violet {
+	background-color: $violet;
 }
