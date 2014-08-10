@@ -57,6 +57,7 @@ footer {
   font-family: 'Josefin Sans';
   font-weight: 100; }
   footer .menu {
+    margin-top: 10px;
     width: 100%; }
   footer li {
     width: 15px;
