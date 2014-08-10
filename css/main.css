@@ -8,7 +8,8 @@ footer {
   width: 600px;
   text-align: center;
   font-size: 3em;
-  font-family: 'Josefin Sans', sans-serif; }
+  font-family: 'Josefin Sans';
+  font-weight: 100; }
 
 #circle {
   margin-left: auto;
