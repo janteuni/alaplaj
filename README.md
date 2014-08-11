@@ -1,4 +1,4 @@
 alaplaj
 =======
 
-![Alt text](./banniere.jpg?raw=true "Alaplaj")
+![Alt text](./img.jpg?raw=true "Alaplaj")
