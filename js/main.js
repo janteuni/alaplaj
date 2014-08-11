@@ -1,5 +1,9 @@
+$( "li" ).hover (function() {
+	changeColor($(this).attr('class'));
+	}
+);
+
 function changeColor(color) {
-	console.log(color);
 	var green = [
 		"#26a69a",
 		"#42bd41",

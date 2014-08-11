@@ -62,9 +62,8 @@ footer {
   footer li {
     cursor: pointer;
     width: 15px;
-    /*$height: 15px;*/
-    margin-right: 7px;
-    /*@include border-radius(100%);*/ }
+    height: 15px;
+    margin-right: 7px; }
 
 #circle {
   margin-left: auto;
