@@ -62,11 +62,9 @@ footer {
   footer li {
     cursor: pointer;
     width: 15px;
-    height: 15px;
+    /*$height: 15px;*/
     margin-right: 7px;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%; }
+    /*@include border-radius(100%);*/ }
 
 #circle {
   margin-left: auto;
@@ -77,15 +75,15 @@ footer {
   justify-content: center; }
 
 .red {
-  background-color: #5e35b1; }
+  border-top: 4px solid #5e35b1; }
 
 .blue {
-  background-color: #5677fc; }
+  border-top: 4px solid #5677fc; }
 
 .green {
-  background-color: #26a69a; }
+  border-top: 4px solid #26a69a; }
 
 .violet {
-  background-color: #880e4f; }
+  border-top: 4px solid #880e4f; }
 
 /*# sourceMappingURL=main.css.map */

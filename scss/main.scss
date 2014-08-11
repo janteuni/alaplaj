@@ -26,9 +26,9 @@ footer {
 	li {
 		cursor: pointer;
 		width: 15px;
-		height: 15px;
+		/*$height: 15px;*/
 		margin-right: 7px; 
-		@include border-radius(100%);
+		/*@include border-radius(100%);*/
 	}
 }
 
@@ -43,16 +43,17 @@ footer {
 }
 
 .red {
-	background-color: $red;
+	border-top: 4px solid $red;
 }
 
 .blue {
-	background-color: $blue;
+	border-top: 4px solid $blue;
 }
 
 .green {
-	background-color: $green;
+	border-top: 4px solid $green;
 }
+
 .violet {
-	background-color: $violet;
+	border-top: 4px solid $violet;
 }
