@@ -5,10 +5,11 @@
 			<circle cx="300" cy="200" r="250"  />
 		</clipPath>
 		<g clip-path="url(#cut)">
-			<path d="M 20,50 Q 160,50 300,120 T 590,80 V 580 H 20 Z" fill="#B50100" fill-opacity="0.5"/>
+			<path id="w1" d="M 20,50 Q 160,50 300,120 T 590,80 V 580 H 20 Z" fill="#B50100" fill-opacity="0.5"/>
 			<path d="M 20,70 Q 160,40 320,110 T 590,80 V 580 H 20 Z" fill="#0451DE" fill-opacity="0.5"/>
 			<path d="M 20,80 Q 170,30 330,100 T 590,70 V 580 H 20 Z" fill="#B50100" fill-opacity="0.5"/>
 		</g>
-
+		<rect id="rect1" x="10" y="10" width="50" height="80"
+		          style="stroke:#000000; fill:none;"/>
 	</g>
 </svg>

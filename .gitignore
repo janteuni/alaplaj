@@ -1,2 +1,5 @@
 node_modules/
 .sass-cache/
+.index.html.swp
+js/.main.js.swp
+scss/.main.scss.swp
